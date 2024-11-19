@@ -53,4 +53,11 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+.app-icon {
+    height: 1em;  /* matches the current text height */
+    width: auto;
+    vertical-align: middle;
+    margin-right: 0.5rem;
 } 

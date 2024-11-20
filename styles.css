@@ -60,4 +60,35 @@ footer a:hover {
     width: auto;
     vertical-align: middle;
     margin-right: 0.5rem;
+}
+
+.language-selector {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.language-selector select {
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+[dir="rtl"] {
+    text-align: right;
+}
+
+.language-links {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.language-links a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #333;
+}
+
+.language-links a:hover {
+    text-decoration: underline;
 } 
